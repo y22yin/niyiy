@@ -6,25 +6,192 @@
 <!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <meta name="description" content="Website of Yi Yin">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>niyiy.com is almost here!</title>
 
-  <link rel="stylesheet" href="//secure.newdream.net/singlepage/_assets/css/site.css" />
+  <title>YI YIN</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!--<link rel="stylesheet" href="http://secure.newdream.net/singlepage/_assets/css/site.css" /> -->
+
 </head>
 
 <body>
-  <div id="page-container">
-    <header>
-      <a href="http://dreamhost.com" id="logo"><img src="//secure.newdream.net/singlepage/_assets/images/logo.png" alt="DreamHost" /></a>
-    </header>
+  <header>
+    <!--site navigation bar-->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+          <span class="sr-only">
+            Toggle Navigation
+          </span>
+          <!--<span class="icon-bar"></span>-->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-    <div id="main">
-      <h2>Hi Gro~~~~!</h2>
-      <p>From Git</p>
-      <p><a href="http://wiki.dreamhost.com/Uploading_your_site" class="btn">Need help?</a> <a href="https://panel.dreamhost.com" class="btn">Admin Panel</a></p>
+        <a class="navbar-brand" href="#">Yi Yin</a>
+      </div>
+
+      <div class="navbar-right navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <!--<li><a href="#">About</a></li>-->
+          <li class="active"><a href="#">Resume</a></li>
+          <li><a href="#">Data Visualization</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- page content -->
+
+    
+      <!--<a href="http://dreamhost.com" id="logo"><img src="http://secure.newdream.net/singlepage/_assets/images/logo.png" alt="DreamHost" /></a>-->
+  
+
+  <div id="main">
+    <h1>Resume</h1>
+    <p> Yi is a third year Computer Science(University Of Waterloo) student with work experience from large and small organizations.</p>
+
+    <article id="resume">
+      <section id = 'info'>
+      <h2>Contact</h2>
+      <dl id = 'contact'>
+        <dt>email</dt>
+        <dd><a href="mailto:yi@niyiy.com">yi@niyiy.com</a></dd>
+        <dt>website</dt>
+        <dd><a href="//niyiy.com" id='site'>niyiy.com</a></dd>
+        <dt>github</dt>
+        <dd><a href="//github.com/y22yin">y22yin</a></dd>
+      </dl>
+    </section>
+
+      <section id='skills'>
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <h3> Language Proficiency</h3>
+            Object Oriented(C++, JAVA, C), SQL, PHP, bash, Javascript(jQuery and d3js)
+          </li>
+          <li>
+            <h3>Mobile App Industry</h3>
+            Solid understanding of the mobile application platform, with a special focus in mobile gaming. Experienced with user experience, user aquisition, and monetization.
+          </li>
+
+          <li>
+            <h3>Database Design</h3>
+            Adept knowledge of database design and schema analysis.
+          </li>
+
+          <li>
+            <h3>Software Design Pattern</h3>
+            Knowledgable about common design patterns. Extensive experience with the Model-View-Controller pattern.
+          </li>
+        </ul>
+        
+      </section>
+
+      <section id='experience'>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+              <h3>
+                <span class='date'>Spring 2013</span>
+                <span class='position'>Data Analyst</span>
+                <a href="http://www.xmg.com">XMG Studio</a>
+                <span class='location'>Toronto, Ontario</span>
+              </h3>
+              <ul>
+                <li>Create tools to collect data via external API and scraping using PHP and PERL</li>
+                <li>Develop and analyze A/B tests using R</li>
+                <li>Query and analyze user data to improve game experience</li>
+                <li>Rebuild user data collection process with siginicant improvements using MySQL, PHP, and bash</li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h3>
+                <span class='date'>Fall 2012</span>
+                <span class='position'>Game Tester</span>
+                <a href="http://www.xmg.com">XMG Studio</a>
+                <span class='location'>Toronto, Ontario</span>
+              </h3>
+               <ul>
+                <li>Mobile game testing for functionality, UI, and UX</li>
+                <li>Design test cases for current and future games</li>
+                <li>Lead test cycle for upcoming release</li>
+                <li>Immersion in an angile development environment</li>
+              </ul>
+            </li>
+
+            <li>
+              <h3>
+                <span class='date'>Winter 2012</span>
+                <span class='position'>Junior Technology Project Officer</span>
+                <a href="http://www.tbs-sct.gc.ca/">Treasury Board of Canada Secretariat</a>
+                <span class='location'>Ottawa, Ontario</span>
+              </h3>
+            
+            <ul>
+                <li>Deploy <a href="http://www.w3.org/WAI/intro/wcag">WCAG 2.0</a> standards to existing HTML</li>
+                <li>Created scripts to automate deployment process</li>
+                <li>Complete client requests for site updates/creations in a timely manner</li>
+              </ul>
+            </li>
+        </ul>
+      </section>
+
+      <section id='education'>
+        <h2>Education</h2>
+        <ul>
+          <li><h3><span class="date">2010 &ndash; Present</span> University of Waterloo</h3>
+            Candidate for Bachelor of Computer Science (BCS) <br />
+            Waterloo, Ontario
+          </li>
+        </ul>
+      </section>
+
+      <section id='hobbies'>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Pok&#233;mon</li>
+            <li>Knitting</li>
+            <li>Double Bass</li>
+            <li>Barbecue</li>
+        </ul>
+      </section>
+
+    </article>
+
+  </div>
+
+
+  
+
+
+  <!--site footer -->
+  <div class="navbar-fixed-bottom" id="footer">
+    <div class="container">
+      <p class="text-muted">Yi Yin</p>
     </div>
   </div>
+
+
+  <!-- js loading-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/niyiy.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      niyiy();
+    });
+  </script>
+
+
 </body>
 </html>
