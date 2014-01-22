@@ -21,7 +21,7 @@ ul ul li {
 }
 
 section {
-	margin-bottom:30px;
+	margin-bottom:10px;
 	overflow: hidden;
 }
 
@@ -58,6 +58,11 @@ h1, h2, h3, h4{
 }
 #hobbies ul li:last-child:after{
 	content: '';
+	
+}
+
+#hobbies {
+	margin-bottom:30px;
 }
 
 #footer {
@@ -68,13 +73,14 @@ h1, h2, h3, h4{
 
 #footer > .container {
 	padding:5px;
+	text-align: center;
 
 
 }
 
 @media only print, screen and (min-width:800px) {
 	#main{
-		padding:0 20px;
+		padding:0px 50px 30px 50px;
 	}
 
 	section {
@@ -98,17 +104,12 @@ h1, h2, h3, h4{
 		font-weight:normal;
 	}
 
-	#resume > section > dl >dd {
-		padding: 0 0 0.5em 0; 
-	}
-
 	#resume > section > dl >dt:after {
 		content: ': ';
 	}
 
 	#resume > section > ul , #resume > section > dl {
 		margin-top:25px;
-		box-sizing: border-box;
 		padding-left:250px;
 		padding-right:50px;
 	}
@@ -159,7 +160,7 @@ h1, h2, h3, h4{
 	#resume > section > ul , #resume > section > dl {
 		margin-top:10px;
 		box-sizing: border-box;
-		/*padding-left:125px;*/
+
 	}
 
 	#resume > section > ul > li  ul {
